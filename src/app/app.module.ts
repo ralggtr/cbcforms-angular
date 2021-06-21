@@ -9,7 +9,12 @@ import { RecoverPasswordFormComponent } from './recover-password-form/recover-pa
 import { SurveyOverviewFormComponent } from './survey-overview-form/survey-overview-form.component';
 import { PersonalInfoFormComponent } from './personal-info-form/personal-info-form.component';
 import { SurveyInstructionsComponent } from './survey-instructions/survey-instructions.component';
-import { ScholarshipLevelFormComponent } from './scholarship-level-form/scholarship-level-form.component'
+import { ScholarshipLevelFormComponent } from './scholarship-level-form/scholarship-level-form.component';
+import { EducationLevelFormComponent } from './education-level-form/education-level-form.component';
+import { OffspringInfoFormComponent } from './offspring-info-form/offspring-info-form.component';
+import { HomeFinancesFormComponent } from './home-finances-form/home-finances-form.component';
+import { Household1InfoFormComponent } from './household1-info-form/household1-info-form.component';
+import { Household2InfoFormComponent } from './household2-info-form/household2-info-form.component'
 
 @NgModule({
   declarations: [
@@ -19,7 +24,12 @@ import { ScholarshipLevelFormComponent } from './scholarship-level-form/scholars
     SurveyOverviewFormComponent,
     PersonalInfoFormComponent,
     SurveyInstructionsComponent,
-    ScholarshipLevelFormComponent
+    ScholarshipLevelFormComponent,
+    EducationLevelFormComponent,
+    OffspringInfoFormComponent,
+    HomeFinancesFormComponent,
+    Household1InfoFormComponent,
+    Household2InfoFormComponent
   ],
   imports: [
     BrowserModule,

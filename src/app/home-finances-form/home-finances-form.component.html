@@ -1,0 +1,1004 @@
+
+<header>
+    <div class="container py-1">
+        <div class="col-4 mx-auto text-center">
+
+            <h5>Economía de tu hogar</h5>
+           
+        </div>
+    </div>
+</header>
+
+<body>
+    <form>
+    <div class="col-12 mx-auto">
+        <div class="container">
+            <div class="row">
+              <div class="col-sm-9 col-md-9 col-lg-7 mx-auto">
+     
+        <div class="card card-signin">
+            <div class="card-body">
+                <div class="container py-1">
+                    <label for="offspring_n"><small>¿Cuántas personas incluyéndolo a usted aportan económicamente al sostenimiento del hogar?</small></label>
+                    <div class="input-group">
+                        <input type="number" id="offspring_n" name="offspring_n" class="form-control">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="card card-signin">
+            <div class="card-body">
+                <div class="container py-1">
+                    <label for="total_income"><small>¿Cuál es el monto total en Quetzales de los ingresos que perciben mensualmente a nivel del núcleo familiar?</small></label>
+                    <small><strong>Sume los ingresos percibidos por todas las personas que aportan económicamente al sostenimiento del
+                        hogar, incluyéndolo a usted. (Quetzales)</strong> </small>
+                    <div class="input-group">
+                        <input type="number" id="total_income" name="total_income" class="form-control">
+                        <span class="input-group-text" id="basic-addon2"><i class="fa fa-dollar-sign" aria-hidden="true"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="card card-signin">
+            <div class="card-body">
+                <div class="form-group">
+                    <div class="container py-1">
+                        <small>A nivel personal, ¿Posee ingresos económicos adicionales? </small>
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="additional-income" id="additional-income">
+                                    <label class="form-check-label" for="additional-income">
+                                    Si
+                                    </label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="additional-income" id="additional-income">
+                                <label class="form-check-label" for="additional-income">
+                                No
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>              
+            
+        </div>
+        </div>
+        
+<!--         field div
+ -->
+ <!-- ¿Qué tipo de ingresos adicionales posee?
+ ¿Cuál es el monto mensual en Quetzales que percibe por cada ingreso adicional?
+
+ 1. Segundo trabajo Monto Q._______________
+ 2. Ventas Monto Q._______________
+ 3. Pensiones Monto Q._______________
+ 4. Jubilaciones Monto Q._______________
+ 5. Rentas Monto Q._______________
+ 6. Otros Especifique: Monto Q._______________ -->
+
+
+ <div class="card card-signin">
+    <div class="card-body">
+        <div class="form-group">
+            <div class="container py-1">
+                <small>¿Qué tipo de ingresos adicionales posee?<br>
+                    ¿Cuál es el monto mensual en Quetzales que percibe por cada ingreso adicional? </small>
+                <div class="input-group py-2">
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
+                                <label class="form-check-label" for="additional-income">
+                                Segundo trabajo
+                                </label>
+                            </div>                       
+                        </div>
+                        <div class="col">
+                            <div class="form-input-text">
+                                
+                                <input type="number" id="additional-income-val" name= "additional-income-val" class="form-control-sm">                            
+                            </div>
+                        </div>                    
+                    </div>
+                </div>
+
+                <div class="input-group py-2">
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
+                                <label class="form-check-label" for="additional-income">
+                                Ventas
+                                </label>
+                            </div>                       
+                        </div>
+                        <div class="col">
+                            <div class="form-input-text">
+                                <input type="number" id="title" class="form-control-sm">                            
+                            </div>
+                        </div>                    
+                    </div>
+                </div>
+
+                <div class="input-group py-2">
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
+                                <label class="form-check-label" for="additional-income">
+                                Pensiones
+                                </label>
+                            </div>                       
+                        </div>
+                        <div class="col">
+                            <div class="form-input-text">
+                                <input type="number" id="title" class="form-control-sm">                            
+                            </div>
+                        </div>                    
+                    </div>
+                </div>
+
+                <div class="input-group py-2">
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
+                                <label class="form-check-label" for="additional-income">
+                               Jubilaciones
+                                </label>
+                            </div>                       
+                        </div>
+                        <div class="col">
+                            <div class="form-input-text">
+                                <input type="number" id="title" class="form-control-sm">                            
+                            </div>
+                        </div>                    
+                    </div>
+                </div>
+
+                <div class="input-group py-2">
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
+                                <label class="form-check-label" for="additional-income">
+                                Rentas
+                                </label>
+                            </div>                       
+                        </div>
+                        <div class="col">
+                            <div class="form-input-text">
+                                <input type="number" id="title" class="form-control-sm">                            
+                            </div>
+                        </div>                    
+                    </div>
+                </div>
+
+                <div class="input-group py-2">
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
+                                <label class="form-check-label" for="additional-income">
+                                Otros (Especifique)
+                                </label>
+                            </div>     
+                            <div class="form-input-text">
+                                <input type="text" id="title" class="form-control-sm">                            
+                            </div>                  
+                        </div>
+                        <div class="col">
+                            <div class="form-input-text">
+                                <input type="number" id="title" class="form-control-sm">                            
+                            </div>
+                        </div>                    
+                    </div>
+                </div>
+
+
+        </div>
+    </div>              
+    
+</div>
+</div>
+
+
+
+<!--  field div
+ -->
+
+ <div class="card card-signin">
+    <div class="card-body">
+        <div class="form-group">
+            <div class="container py-1">
+                <small>¿Recibe remesas del extranjero? </small>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="additional-income" id="additional-income">
+                            <label class="form-check-label" for="additional-income">
+                            Si
+                            </label>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="additional-income" id="additional-income">
+                        <label class="form-check-label" for="additional-income">
+                        No
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>              
+    
+</div>
+</div>
+
+
+
+ <!-- field div-->
+
+ <div class="card card-signin">
+    <div class="card-body">
+        <div class="form-group">
+            <div class="container py-1">
+                <small>Indique el rango en Dólares del monto mensual que recibe por concepto de remesas del extranjero. </small>
+                <div class="row">
+                    <div class="col">
+                        <div class="radio">
+                            <input class="form-check-input" type="radio" name="additional-income" id="additional-income">
+                            <label class="form-check-label" for="additional-income">
+                            De 0 a 50
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <input class="form-check-input" type="radio" name="additional-income" id="additional-income">
+                            <label class="form-check-label" for="additional-income">
+                            De 51 a 100
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <input class="form-check-input" type="radio" name="additional-income" id="additional-income">
+                            <label class="form-check-label" for="additional-income">
+                            De 101 a 200
+                            </label>
+                        </div>
+                </div>
+                <div class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="additional-income" id="additional-income">
+                        <label class="form-check-label" for="additional-income">
+                        De 201 a 300
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="additional-income" id="additional-income">
+                        <label class="form-check-label" for="additional-income">
+                        De 301 a 500
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="additional-income" id="additional-income">
+                        <label class="form-check-label" for="additional-income">
+                        De 501 a más
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>              
+    
+</div>
+</div>
+
+
+ <!-- field div -->
+
+ <div class="card card-signin">
+    <div class="card-body">
+        <div class="form-group">
+            <div class="container py-1">
+                <small>¿Quién le envía la remesa mensualmente?<br>Marca todas las que apliquen:</small>
+                <div class="row">
+                    <div class="col">
+                        <div class="checkbox">
+                            <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
+                            <label class="form-check-label" for="additional-income">
+                            Padre
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
+                            <label class="form-check-label" for="additional-income">
+                            Madre
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
+                            <label class="form-check-label" for="additional-income">
+                            Conyugue
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
+                            <label class="form-check-label" for="additional-income">
+                            Hijo(a)
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
+                            <label class="form-check-label" for="additional-income">
+                            Hermano(a)
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
+                            <label class="form-check-label" for="additional-income">
+                            Tío(a)
+                            </label>
+                        </div>
+                </div>
+                <div class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
+                        <label class="form-check-label" for="additional-income">
+                        Primo(a)
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
+                        <label class="form-check-label" for="additional-income">
+                        Sobrino(a)
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
+                        <label class="form-check-label" for="additional-income">
+                        Abuelo(a)
+                        </label>
+                    </div>
+
+                    <div class="checkbox">
+                        <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
+                        <label class="form-check-label" for="additional-income">
+                        Suegro(a)
+                        </label>
+                    </div>
+
+                    <div class="checkbox">
+                        <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
+                        <label class="form-check-label" for="additional-income">
+                        Cuñado(a)
+                        </label>
+                    </div>
+
+                    <div class="checkbox">
+                        <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
+                        <label class="form-check-label" for="additional-income">
+                        Otro (Especifique)
+                        </label>
+                        <div class="form-input-text">
+                            <input type="text" id="title" class="form-control-sm">                            
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>              
+    
+</div>
+</div>
+
+<!--field div 
+EC8 ¿Usted ahorra?
+Marque con una “X” la respuesta que aplique
+1. Sí CONTINÚE 2. No PASE A EC14
+
+EC9 ¿Qué método de ahorro utiliza?
+Marque con una “X” todas las respuestas que apliquen
+1. Asociación 4. Cuenta de ahorro en banco
+2. Cooperativa 5. Lo guarda en casa
+3. Cuchubal 6. Otros Especifique:-->
+
+
+
+
+
+ <!--field div-->
+
+
+ <div class="card card-signin">
+    <div class="card-body">
+        <div class="form-group">
+            <div class="container py-1">
+                <small>¿Usted ahorra? </small>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="additional-income" id="additional-income">
+                            <label class="form-check-label" for="additional-income">
+                            Si
+                            </label>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="additional-income" id="additional-income">
+                        <label class="form-check-label" for="additional-income">
+                        No
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>              
+    
+</div>
+</div>
+
+
+<!--field div-->
+
+
+<div class="card card-signin">
+    <div class="card-body">
+        <div class="form-group">
+            <div class="container py-1">
+                <small>¿Qué método de ahorro utiliza?<br>Marca todas las que apliquen:</small>
+                <div class="row">
+                    <div class="col">
+                        <div class="checkbox">
+                            <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
+                            <label class="form-check-label" for="additional-income">
+                            Asociación
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
+                            <label class="form-check-label" for="additional-income">
+                            Cooperativa
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
+                            <label class="form-check-label" for="additional-income">
+                            Cuchubal
+                            </label>
+                        </div>
+                        
+                </div>
+                <div class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
+                        <label class="form-check-label" for="additional-income">
+                        Cuenta de ahorro en banco
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
+                        <label class="form-check-label" for="additional-income">
+                        Lo guarda en casa
+                        </label>
+                    </div>
+                    
+                    <div class="checkbox">
+                        <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
+                        <label class="form-check-label" for="additional-income">
+                        Otro (Especifique)
+                        </label>
+                        <div class="form-input-text">
+                            <input type="text" id="title" class="form-control-sm">                            
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>              
+    
+</div>
+</div>
+
+
+<!--field div-->
+
+<!--
+1. BAC - Credomatic 8. Banco Internacional
+2. Banco Agromercantil 9. Banrural
+3. Banco Azteca 10. Cooperativa o Asociación Solidarista
+4. Banco de Antigua 11. Interbanco
+5. Banco de los Trabajadores 12. Promerica
+6. Banco GyT Continental 13. Vivibanco
+7. Banco Industrial 14. Otros Especifique:
+
+-->
+
+<div class="card card-signin">
+    <div class="card-body">
+        <div class="form-group">
+            <div class="container py-1">
+                <small>¿En qué institución ahorra?<br>Marque todas las que apliquen:</small>
+                <div class="row">
+                    <div class="col">
+                        <div class="checkbox">
+                            <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
+                            <label class="form-check-label" for="additional-income">
+                                BAC - Credomatic
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
+                            <label class="form-check-label" for="additional-income">
+                                Banco Agromercantil
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
+                            <label class="form-check-label" for="additional-income">
+                                Banco Azteca
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
+                            <label class="form-check-label" for="additional-income">
+                                Banco de Antigua
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
+                            <label class="form-check-label" for="additional-income">
+                                Banco de los Trabajadores
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
+                            <label class="form-check-label" for="additional-income">
+                                Banco GyT Continental
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
+                            <label class="form-check-label" for="additional-income">
+                                Banco Industrial
+                            </label>
+                        </div>
+                        
+                </div>
+                <div class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
+                        <label class="form-check-label" for="additional-income">
+                            Banco Internacional
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
+                        <label class="form-check-label" for="additional-income">
+                            Banrural
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
+                        <label class="form-check-label" for="additional-income">
+                            Cooperativa o Asociación Solidarista
+                        </label>
+                    </div>
+
+                    <div class="checkbox">
+                        <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
+                        <label class="form-check-label" for="additional-income">
+                            Interbanco
+                        </label>
+                    </div>
+
+                    <div class="checkbox">
+                        <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
+                        <label class="form-check-label" for="additional-income">
+                            Promérica
+                        </label>
+                    </div>
+
+                    <div class="checkbox">
+                        <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
+                        <label class="form-check-label" for="additional-income">
+                            Vivibanco
+                        </label>
+                    </div>
+
+                    <div class="checkbox">
+                        <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
+                        <label class="form-check-label" for="additional-income">
+                        Otro (Especifique)
+                        </label>
+                        <div class="form-input-text">
+                            <input type="text" id="title" class="form-control-sm">                            
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>              
+    
+</div>
+</div>
+
+
+
+<!--field div
+EC11 ¿Cuál es el monto promedio en Quetzales que ahorra?
+Marque con una “X” la respuesta que aplique
+1. De 1 a 100 4. De 501 a 1,000
+2. De 101 a 250 5. De 1,001 a Más
+3. De 251 a 500-->
+
+
+<div class="card card-signin">
+    <div class="card-body">
+        <div class="form-group">
+            <div class="container py-1">
+                <small>¿Cuál es el monto promedio en Quetzales que ahorra? </small>
+                <div class="row">
+                    <div class="col">
+                        <div class="radio">
+                            <input class="form-check-input" type="radio" name="additional-income" id="additional-income">
+                            <label class="form-check-label" for="additional-income">
+                            De 1 a 100
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <input class="form-check-input" type="radio" name="additional-income" id="additional-income">
+                            <label class="form-check-label" for="additional-income">
+                            De 101 a 250
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <input class="form-check-input" type="radio" name="additional-income" id="additional-income">
+                            <label class="form-check-label" for="additional-income">
+                            De 251 a 500
+                            </label>
+                        </div>
+                </div>
+                <div class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="additional-income" id="additional-income">
+                        <label class="form-check-label" for="additional-income">
+                        De 501 a 1000
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="additional-income" id="additional-income">
+                        <label class="form-check-label" for="additional-income">
+                        De 1001 a más
+                        </label>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>              
+    
+</div>
+</div>
+
+
+ <!-- field div -->
+
+ <!-- EC12 ¿Cuál es la principal razón por la que ahorra?
+Marque con una “X” todas las respuestas que apliquen
+1. Arreglo de vivienda 7. Gastos personales 13. Ropa
+2. Celebración 8. Herencia 14. Vehículo (carro o moto)
+3. Electrodomésticos 9. Inversión 15. Viajes
+4. Emergencias 10. Jubilación 16. Otros, especifique:
+5. Enceres 11. Muebles para la casa 17. Otros, especifique:
+6. Fiesta 12. Nacimiento de hijos 18. Otros, especifique: -->
+
+
+<div class="card card-signin">
+    <div class="card-body">
+        <div class="form-group">
+            <div class="container py-1">
+                <small>¿Cuál es la principal razón por la que ahorra?<br>
+                    Marque todas las respuestas que apliquen</small>
+                <div class="row">
+                    <div class="col">
+                        <div class="checkbox">
+                            <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
+                            <label class="form-check-label" for="additional-income">
+                                Arreglo de vivienda
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
+                            <label class="form-check-label" for="additional-income">
+                                Celebración
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
+                            <label class="form-check-label" for="additional-income">
+                                Electrodomésticos
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
+                            <label class="form-check-label" for="additional-income">
+                                Emergencias
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
+                            <label class="form-check-label" for="additional-income">
+                                Enseres
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
+                            <label class="form-check-label" for="additional-income">
+                                Fiesta
+                            </label>
+                        </div>                                               
+                </div>
+                <div class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
+                        <label class="form-check-label" for="additional-income">
+                            Gastos personales
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
+                        <label class="form-check-label" for="additional-income">
+                            Herencia
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
+                        <label class="form-check-label" for="additional-income">
+                            Inversión
+                        </label>
+                    </div>
+
+                    <div class="checkbox">
+                        <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
+                        <label class="form-check-label" for="additional-income">
+                            Jubilación
+                        </label>
+                    </div>
+
+                    <div class="checkbox">
+                        <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
+                        <label class="form-check-label" for="additional-income">
+                            Muebles para la casa
+                        </label>
+                    </div>
+
+                    <div class="checkbox">
+                        <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
+                        <label class="form-check-label" for="additional-income">
+                            Nacimiento de hijos
+                        </label>
+                    </div>                    
+                </div>
+
+                <div class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
+                        <label class="form-check-label" for="additional-income">
+                            Ropa
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
+                        <label class="form-check-label" for="additional-income">
+                            Viajes
+                        </label>
+                    </div>
+
+                    <div class="checkbox">
+                        <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
+                        <label class="form-check-label" for="additional-income">
+                        Otro (Especifique)
+                        </label>
+                        <div class="form-input-text">
+                            <input type="text" id="title" class="form-control-sm">                            
+                        </div>
+                    </div>
+
+                    <div class="checkbox">
+                        <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
+                        <label class="form-check-label" for="additional-income">
+                        Otro (Especifique)
+                        </label>
+                        <div class="form-input-text">
+                            <input type="text" id="title" class="form-control-sm">                            
+                        </div>
+                    </div>
+
+                    <div class="checkbox">
+                        <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
+                        <label class="form-check-label" for="additional-income">
+                        Otro (Especifique)
+                        </label>
+                        <div class="form-input-text">
+                            <input type="text" id="title" class="form-control-sm">                            
+                        </div>
+                    </div>
+
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>              
+    
+</div>
+</div>
+
+
+<!--field div-->
+<!-- EC13 ¿Con qué frecuencia ahorra?
+Marque con una “X” la respuesta que aplique
+1. Mensual 4. Anual
+2. Trimestral 5. Solo en Bono 14 y Aguinaldo
+3. Semestral 6. Otro: Especifique: -->
+
+<div class="card card-signin">
+    <div class="card-body">
+        <div class="form-group">
+            <div class="container py-1">
+                <small>¿Con qué frecuencia ahorra?</small>
+                <div class="row">
+                    <div class="col">
+                        <div class="radio">
+                            <input class="form-check-input" type="radio" name="additional-income" id="additional-income">
+                            <label class="form-check-label" for="additional-income">
+                            Mensual
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <input class="form-check-input" type="radio" name="additional-income" id="additional-income">
+                            <label class="form-check-label" for="additional-income">
+                            Trimestral
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <input class="form-check-input" type="radio" name="additional-income" id="additional-income">
+                            <label class="form-check-label" for="additional-income">
+                            Semestral
+                            </label>
+                        </div>
+                </div>
+                <div class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="additional-income" id="additional-income">
+                        <label class="form-check-label" for="additional-income">
+                        Anual
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="additional-income" id="additional-income">
+                        <label class="form-check-label" for="additional-income">
+                            Solo en Bono 14 y Aguinaldo
+                        </label>
+                    </div>
+
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="additional-income" id="additional-income">
+                        <label class="form-check-label" for="additional-income">
+                        Otros (Especifique)
+                        </label>
+                        <div class="form-input-text">
+                            <input type="text" id="title" class="form-control-sm">                            
+                        </div>
+                    </div>     
+                    
+
+                </div>
+            </div>
+        </div>
+    </div>              
+    
+</div>
+</div>
+
+<!-- field div-->
+<!-- EC14 ¿Posee deudas? -->
+
+<div class="card card-signin">
+    <div class="card-body">
+        <div class="form-group">
+            <div class="container py-1">
+                <small>¿Posee deudas? </small>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="additional-income" id="additional-income">
+                            <label class="form-check-label" for="additional-income">
+                            Si
+                            </label>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="additional-income" id="additional-income">
+                        <label class="form-check-label" for="additional-income">
+                        No
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>              
+    
+</div>
+</div>
+
+<!-- field div-->
+<!-- EC15 ¿Qué tipo de deudas posee?
+¿Cuál es el monto mensual en Quetzales que cancela por cada deuda?
+Para las deudas que posea, ingrese el monto mensual en números. (Ej. 675)
+Marque con una “X” todas las respuestas que apliquen
+1. Casa de empeño Monto Q.
+2. Préstamo bancario (hipotecario y/o fiduciario) Monto Q.
+3. Préstamo en cooperativa fuera de la empresa Monto Q.
+4. Préstamo en cooperativa o Asociación Solidarista Monto Q.
+5. Préstamo prendario Monto Q.
+6. Tarjeta de crédito Monto Q.
+7. Compras al crédito Monto Q.
+8. Otros Especifique: Monto Q
+ -->
+
+
+ 
+
+
+<!-- field div -->
+
+
+        </div>
+        </div>
+        </div>
+  <div class="my-2 text-center">
+      <button class="btn btn-lg btn-submit text-uppercase align-center" type="submit">CONTINUAR</button>
+  </div> 
+    </div>
+    <div class ="my-5 text-center">
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+</form>
+    <div class ="my-5 text-center">
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+</body>
