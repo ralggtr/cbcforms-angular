@@ -1,3 +1,18 @@
+# INFORMACION DE RUTAS #
+  { path: '', redirectTo: 'UserLoginFormComponent', pathMatch: 'full' },   (LOGIN)
+  { path: 'login', component: UserLoginFormComponent },                    (LOGIN)
+  { path: 'recover', component: RecoverPasswordFormComponent },            (RECUPERAR CONTRASEÑA)
+  { path: 'overview', component: SurveyOverviewFormComponent },            (INSTRUCCIONES)
+  { path: 'personal-info', component: PersonalInfoFormComponent },         (INFORMACION PERSONAL)
+  { path: 'instructions', component: SurveyInstructionsComponent },        (INSTRUCCIONES)
+  { path: 'education-level', component: EducationLevelFormComponent },     (FORMULARIOS ESCOLARIDAD)
+  { path: 'offspring-info', component: OffspringInfoFormComponent },       (HIJOS)
+  { path: 'home-finances', component: HomeFinancesFormComponent },         (ECONOMIA DEL HOGAR)
+  { path: 'household1-info', component: Household1InfoFormComponent },      (VIVIENDA 1)
+  { path: 'household2-info', component: Household2InfoFormComponent },      (VIVIENDA 2)
+
+
+
 # CBCFrm
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.3.
