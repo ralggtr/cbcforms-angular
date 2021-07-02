@@ -1,38 +1,815 @@
-SALUD DE LOS MENORES EN SU HOGAR
-SM1 ¿Hay niños menores de 7 años en su hogar?
-Marque con una “X” la respuesta que aplique
-1. Sí CONTINÚE 2. No PASE A SG1
-SM2 ¿Los menores que viven en su hogar cuentan con control de peso y talla?
-Marque con una “X” la respuesta que aplique
-1. Sí 2. No
-SM3 ¿Cuentan con carnet de vacunación?
-Marque con una “X” la respuesta que aplique
-1. Sí 2. No
-SM4 ¿Alguno de los niños menores de 7 años ha padecido de alguna de estas enfermedades?
-Marque con una “X” todas las respuestas que apliquen
-1. Difteria 7. Infecciones por neumococo 13. Tétano
-2. Influenza Tipo A 8. Paperas 14. Tos ferina
-3. Influenza Tipo B 9. Polio 15. Varicela
-4. Hepatitis A 10. Rotavirus 16. Virus del papiloma humano
-5. Hepatitis B 11. Rubéola 17. Ninguna
-6. Infecciones por meningococo 12. Sarampión
-SM5 ¿En su hogar las madres con niños menores de 2 años brindan o han brindado lactancia materna a los niños?
-Marque con una “X” la respuesta que aplique
-1. Sí 2. No
-SM6 ¿Alguno de los niños menores de 7 años de su hogar ha tenido diarrea en los últimos 15 días?
-Marque con una “X” la respuesta que aplique
-1. Sí 2. No
-SM7 ¿Cuántas veces al año considera que los niños menores de 7 años de su hogar se enferman de problemas
-respiratorios?
-Ingrese su respuesta utilizando únicamente números
-SM8 ¿A dónde llevan a los niños menores de 7 años de su hogar cuando se enferman?
-Marque con una “X” la respuesta que aplique
-1. Hospital público 7. IGSS
-2. Hospital privado 8. Comadrona
-3. Clínica médica privada 9. Seguro médico de la empresa
-4. Centro de salud 10. Clínica médica de la empresa
-5. Farmacia 11. Otros Especifique:
-6. Aprofam
-SM9 ¿En su familia ha fallecido algún niño menor de 7 años?
-Marque con una “X” la respuesta que aplique
-1. Sí 2. No
+<header>
+  <div class="container py-1">
+    <div class="col-4 mx-auto text-center">
+      <h5>Salud de los menores en su hogar</h5>
+    </div>
+  </div>
+</header>
+
+<body>
+  <form>
+    <div class="col-12 mx-auto">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-9 col-md-9 col-lg-7 mx-auto">
+            <!--field div-->
+
+            <div class="card card-signin">
+              <div class="card-body">
+                <div class="form-group">
+                  <div class="container py-1">
+                    <small>¿Hay niños menores de 7 años en su hogar? </small>
+                    <div class="row">
+                      <div class="col">
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="additional-income"
+                            id="additional-income"
+                          />
+                          <label
+                            class="form-check-label"
+                            for="additional-income"
+                          >
+                            Si
+                          </label>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="additional-income"
+                            id="additional-income"
+                          />
+                          <label
+                            class="form-check-label"
+                            for="additional-income"
+                          >
+                            No
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--field div -->
+
+            <div class="card card-signin">
+              <div class="card-body">
+                <div class="form-group">
+                  <div class="container py-1">
+                    <small
+                      >¿Los niños menores en su hogar cuentan con control de
+                      peso y talla?
+                    </small>
+                    <div class="row">
+                      <div class="col">
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="additional-income"
+                            id="additional-income"
+                          />
+                          <label
+                            class="form-check-label"
+                            for="additional-income"
+                          >
+                            Si
+                          </label>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="additional-income"
+                            id="additional-income"
+                          />
+                          <label
+                            class="form-check-label"
+                            for="additional-income"
+                          >
+                            No
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--field div -->
+
+            <div class="card card-signin">
+              <div class="card-body">
+                <div class="form-group">
+                  <div class="container py-1">
+                    <small>¿Cuentan con carnet de vacunación? </small>
+                    <div class="row">
+                      <div class="col">
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="additional-income"
+                            id="additional-income"
+                          />
+                          <label
+                            class="form-check-label"
+                            for="additional-income"
+                          >
+                            Si
+                          </label>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="additional-income"
+                            id="additional-income"
+                          />
+                          <label
+                            class="form-check-label"
+                            for="additional-income"
+                          >
+                            No
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--field div -->
+            <!--                        SM4 ¿Alguno de los niños menores de 7 años ha padecido de alguna de estas enfermedades?
+                        Marque con una “X” todas las respuestas que apliquen
+                        1. Difteria 7. Infecciones por neumococo 13. Tétano
+                        2. Influenza Tipo A 8. Paperas 14. Tos ferina
+                        3. Influenza Tipo B 9. Polio 15. Varicela
+                        4. Hepatitis A 10. Rotavirus 16. Virus del papiloma humano
+                        5. Hepatitis B 11. Rubéola 17. Ninguna
+                        6. Infecciones por meningococo 12. Sarampión -->
+
+            <div class="card card-signin">
+              <div class="card-body">
+                <div class="form-group">
+                  <div class="container py-1">
+                    <small
+                      >¿Alguno de los niños menores de 7 años ha padecido de
+                      alguna de estas enfermedades?<br />
+                      Marque todas las respuestas que apliquen</small
+                    >
+                    <div class="row">
+                      <div class="col">
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            name="flexRadioDefault"
+                            id="flexRadioDefault1"
+                          />
+                          <label
+                            class="form-check-label"
+                            for="flexRadioDefault1"
+                          >
+                            Difteria
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            name="flexRadioDefault"
+                            id="flexRadioDefault2"
+                            checked
+                          />
+                          <label
+                            class="form-check-label"
+                            for="flexRadioDefault2"
+                          >
+                            Influenza tipo A
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            name="flexRadioDefault"
+                            id="flexRadioDefault2"
+                            checked
+                          />
+                          <label
+                            class="form-check-label"
+                            for="flexRadioDefault2"
+                          >
+                            Influenza tipo B
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            name="flexRadioDefault"
+                            id="flexRadioDefault2"
+                            checked
+                          />
+                          <label
+                            class="form-check-label"
+                            for="flexRadioDefault2"
+                          >
+                            Hepatitis A
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            name="flexRadioDefault"
+                            id="flexRadioDefault2"
+                            checked
+                          />
+                          <label
+                            class="form-check-label"
+                            for="flexRadioDefault2"
+                          >
+                            Hepatitis B
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            name="flexRadioDefault"
+                            id="flexRadioDefault2"
+                            checked
+                          />
+                          <label
+                            class="form-check-label"
+                            for="flexRadioDefault2"
+                          >
+                            Infecciones por meningococo
+                          </label>
+                        </div>
+                      </div>
+
+                      <div class="col">
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            name="flexRadioDefault"
+                            id="flexRadioDefault1"
+                          />
+                          <label
+                            class="form-check-label"
+                            for="flexRadioDefault1"
+                          >
+                            Paperas
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            name="flexRadioDefault"
+                            id="flexRadioDefault2"
+                            checked
+                          />
+                          <label
+                            class="form-check-label"
+                            for="flexRadioDefault2"
+                          >
+                            Polio
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            name="flexRadioDefault"
+                            id="flexRadioDefault2"
+                            checked
+                          />
+                          <label
+                            class="form-check-label"
+                            for="flexRadioDefault2"
+                          >
+                            Rotavirus
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            name="flexRadioDefault"
+                            id="flexRadioDefault2"
+                            checked
+                          />
+                          <label
+                            class="form-check-label"
+                            for="flexRadioDefault2"
+                          >
+                            Rubeola
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            name="flexRadioDefault"
+                            id="flexRadioDefault2"
+                            checked
+                          />
+                          <label
+                            class="form-check-label"
+                            for="flexRadioDefault2"
+                          >
+                            Sarampión
+                          </label>
+                        </div>
+                      </div>
+
+                      <div class="col">
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            name="flexRadioDefault"
+                            id="flexRadioDefault1"
+                          />
+                          <label
+                            class="form-check-label"
+                            for="flexRadioDefault1"
+                          >
+                            Tétano
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            name="flexRadioDefault"
+                            id="flexRadioDefault2"
+                            checked
+                          />
+                          <label
+                            class="form-check-label"
+                            for="flexRadioDefault2"
+                          >
+                            Tos ferina
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            name="flexRadioDefault"
+                            id="flexRadioDefault2"
+                            checked
+                          />
+                          <label
+                            class="form-check-label"
+                            for="flexRadioDefault2"
+                          >
+                            Varicela
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            name="flexRadioDefault"
+                            id="flexRadioDefault2"
+                            checked
+                          />
+                          <label
+                            class="form-check-label"
+                            for="flexRadioDefault2"
+                          >
+                            Virus del Papiloma Humano
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            name="flexRadioDefault"
+                            id="flexRadioDefault2"
+                            checked
+                          />
+                          <label
+                            class="form-check-label"
+                            for="flexRadioDefault2"
+                          >
+                            Ninguna
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- field div -->
+
+            <!-- SM5 ¿En su hogar las madres con niños menores de 2 años brindan o han brindado
+    lactancia materna a los niños? -->
+            <div class="card card-signin">
+              <div class="card-body">
+                <div class="form-group">
+                  <div class="container py-1">
+                    <small
+                      >¿En su hogar las madres con niños menores de 2 años
+                      brindan o han brindado lactancia materna a los niños?
+                    </small>
+                    <div class="row">
+                      <div class="col">
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="additional-income"
+                            id="additional-income"
+                          />
+                          <label
+                            class="form-check-label"
+                            for="additional-income"
+                          >
+                            Si
+                          </label>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="additional-income"
+                            id="additional-income"
+                          />
+                          <label
+                            class="form-check-label"
+                            for="additional-income"
+                          >
+                            No
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- field div -->
+
+            <!--             SM6 ¿Alguno de los niños menores de 7 años de su hogar ha tenido diarrea
+en los últimos 15 días? Marque con una “X” la respuesta que aplique 1. Sí 2.
+ -->
+            <div class="card card-signin">
+              <div class="card-body">
+                <div class="form-group">
+                  <div class="container py-1">
+                    <small
+                      >¿Alguno de los niños menores de 7 años de su hogar ha
+                      tenido diarrea en los últimos 15 días?
+                    </small>
+                    <div class="row">
+                      <div class="col">
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="additional-income"
+                            id="additional-income"
+                          />
+                          <label
+                            class="form-check-label"
+                            for="additional-income"
+                          >
+                            Si
+                          </label>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="additional-income"
+                            id="additional-income"
+                          />
+                          <label
+                            class="form-check-label"
+                            for="additional-income"
+                          >
+                            No
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- field div -->
+            <!-- SM7 ¿Cuántas veces al año considera que los niños menores de 7 años de su hogar
+             se enferman de problemas respiratorios? Ingrese su respuesta utilizando
+             únicamente números  -->
+            <div class="card card-signin">
+              <div class="card-body">
+                <div class="form-group">
+                  <div class="container py-1">
+                    <small
+                      >¿Cuántas veces al año considera que los niños menores de
+                      7 años de su hogar se enferman de problemas
+                      respiratorios?</small
+                    >
+                    <div class="row">
+                      <div class="col">
+                        <div class="form-input-text">
+                          <input
+                            type="number"
+                            id="title"
+                            class="form-control-sm"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- field div -->
+            <!-- SM8 ¿A dónde llevan a los
+            niños menores de 7 años de su hogar cuando se enferman? Marque con una “X” la
+            respuesta que aplique 1. Hospital público 7. IGSS 2. Hospital privado 8.
+            Comadrona 3. Clínica médica privada 9. Seguro médico de la empresa 4. Centro de
+            salud 10. Clínica médica de la empresa 5. Farmacia 11. Otros Especifique: 6.
+            Aprofam SM9 -->
+
+            <!-- field div -->
+            <div class="card card-signin">
+              <div class="card-body">
+                <div class="form-group">
+                  <div class="container py-1">
+                    <small
+                      >¿A dónde llevan a los niños menores de 7 años de su hogar
+                      cuando se enferman?<br />
+                      Marque todas las respuestas que apliquen</small
+                    >
+                    <div class="row">
+                      <div class="col">
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            name="flexRadioDefault"
+                            id="flexRadioDefault1"
+                          />
+                          <label
+                            class="form-check-label"
+                            for="flexRadioDefault1"
+                          >
+                            Hospital Público
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            name="flexRadioDefault"
+                            id="flexRadioDefault2"
+                            checked
+                          />
+                          <label
+                            class="form-check-label"
+                            for="flexRadioDefault2"
+                          >
+                            Hospital Privado
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            name="flexRadioDefault"
+                            id="flexRadioDefault2"
+                            checked
+                          />
+                          <label
+                            class="form-check-label"
+                            for="flexRadioDefault2"
+                          >
+                            Clínica Médica Privada
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            name="flexRadioDefault"
+                            id="flexRadioDefault2"
+                            checked
+                          />
+                          <label
+                            class="form-check-label"
+                            for="flexRadioDefault2"
+                          >
+                            Centro de Salud
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            name="flexRadioDefault"
+                            id="flexRadioDefault2"
+                            checked
+                          />
+                          <label
+                            class="form-check-label"
+                            for="flexRadioDefault2"
+                          >
+                            Farmacia
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            name="flexRadioDefault"
+                            id="flexRadioDefault2"
+                            checked
+                          />
+                          <label
+                            class="form-check-label"
+                            for="flexRadioDefault2"
+                          >
+                            APROFAM
+                          </label>
+                        </div>
+                      </div>
+
+                      <div class="col">
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            name="flexRadioDefault"
+                            id="flexRadioDefault1"
+                          />
+                          <label
+                            class="form-check-label"
+                            for="flexRadioDefault1"
+                          >
+                            Comadrona
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            name="flexRadioDefault"
+                            id="flexRadioDefault2"
+                            checked
+                          />
+                          <label
+                            class="form-check-label"
+                            for="flexRadioDefault2"
+                          >
+                            Seguro Médico de la empresa
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            name="flexRadioDefault"
+                            id="flexRadioDefault2"
+                            checked
+                          />
+                          <label
+                            class="form-check-label"
+                            for="flexRadioDefault2"
+                          >
+                            Clínica Médica de la Empresa
+                          </label>
+                        </div>
+                      </div>
+
+                      <div class="col">
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            name="additional-income"
+                            id="additional-income"
+                          />
+                          <label
+                            class="form-check-label"
+                            for="additional-income"
+                          >
+                            Otros (Especifique)
+                          </label>
+                        </div>
+                        <div class="form-input-text">
+                          <input
+                            type="text"
+                            id="title"
+                            class="form-control-sm"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- field div-->
+            <!-- SM9 ¿En su familia ha
+fallecido algún niño menor de 7 años? Marque con una “X” la respuesta que
+aplique 1. Sí 2. No -->
+
+<div class="card card-signin">
+    <div class="card-body">
+      <div class="form-group">
+        <div class="container py-1">
+          <small
+            >¿En su familia ha
+            fallecido algún niño menor de 7 años?
+          </small>
+          <div class="row">
+            <div class="col">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="additional-income"
+                  id="additional-income"
+                />
+                <label
+                  class="form-check-label"
+                  for="additional-income"
+                >
+                  Si
+                </label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="additional-income"
+                  id="additional-income"
+                />
+                <label
+                  class="form-check-label"
+                  for="additional-income"
+                >
+                  No
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+            <!-- field div -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="my-2 text-center">
+        <button class="btn btn-lg btn-submit text-uppercase align-center" type="submit">CONTINUAR</button>
+    </div> 
+  </form>
+  <div>div class ="my-5 text-center">
+    <br>
+    <br>
+    <br>
+    <br>
+</div>
+</body>
+

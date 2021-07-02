@@ -1,215 +1,480 @@
 <header>
-    <div class="container py-1">
-        <div class="col-4 mx-auto text-center">
-
-            <h5>Vivienda</h5>
-           
-        </div>
+  <div class="container py-1">
+    <div class="col-4 mx-auto text-center">
+      <h5>Vivienda</h5>
     </div>
+  </div>
 </header>
 
 <body>
-    <form>
+  <form>
     <div class="col-12 mx-auto">
-        <div class="container">
-            <div class="row">
-              <div class="col-sm-9 col-md-9 col-lg-7 mx-auto">
-
-                <!-- SV1 ¿Tiene necesidad de alquilar o prestar una segunda vivienda?
+      <div class="container">
+        <body class="row">
+          <form class="col-sm-9 col-md-9 col-lg-7 mx-auto">
+            <!-- SV1 ¿Tiene necesidad de alquilar o prestar una segunda vivienda?
                 Marque con una “X” la respuesta que aplique
                 1. Sí CONTINÚE 2. No PASE A SM1 -->
-                
-                <div class="card card-signin">
-                  <div class="card-body">
 
-            <div class="form-group">
-                <div class="container py-1">
-                    <small>¿Tiene necesidad de alquilar o prestar una segunda vivienda?</small>
+            <div class="card card-signin">
+              <div class="card-body">
+                <div class="form-group">
+                  <div class="container py-1">
+                    <small
+                      >¿Tiene necesidad de alquilar o prestar una segunda
+                      vivienda?</small
+                    >
                     <div class="row">
-                    <div class="col">
+                      <div class="col">
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                            <label class="form-check-label" for="flexRadioDefault1">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="flexRadioDefault"
+                            id="flexRadioDefault1"
+                          />
+                          <label
+                            class="form-check-label"
+                            for="flexRadioDefault1"
+                          >
                             SI
-                            </label>
+                          </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                            <label class="form-check-label" for="flexRadioDefault2">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="flexRadioDefault"
+                            id="flexRadioDefault2"
+                            checked
+                          />
+                          <label
+                            class="form-check-label"
+                            for="flexRadioDefault2"
+                          >
                             NO
-                            </label>
-                        </div>                        
-
+                          </label>
+                        </div>
+                      </div>
                     </div>
-                    
+                  </div>
                 </div>
-                </div>
+
+                <!-- <div class="my-2 text-center">
+                <button class="btn btn-lg btn-submit text-uppercase align-center" type="submit">CONTINUAR</button>
+            </div>  -->
+              </div>
             </div>
 
-   
-                        
-            <!-- <div class="my-2 text-center">
-                <button class="btn btn-lg btn-submit text-uppercase align-center" type="submit">CONTINUAR</button>
-            </div>  -->           
-        </div>
-        </div>
+            <!--form field-->
 
-    <!--form field-->
-
-    <!-- SV2 ¿Cuál es la principal razón por la que alquila o presta una segunda vivienda?
+            <!-- SV2 ¿Cuál es la principal razón por la que alquila o presta una segunda vivienda?
     Marque con una “X” la respuesta que aplique
     1. Estudio 4. Separación familiar
     2. Trabajo 5. Otros Especifique:
     3. Distancia / tráfico 6. Otros Especifique: -->
 
-    <div class="card card-signin">
-        <div class="card-body">
+            <div class="card card-signin">
+              <div class="card-body">
+                <div class="form-group">
+                  <div class="container py-1">
+                    <small
+                      >¿Cuál es la principal razón por la que alquila o presta
+                      una segunda vivienda?</small
+                    >
+                    <div class="row">
+                      <div class="col">
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="flexRadioDefault"
+                            id="flexRadioDefault1"
+                          />
+                          <label
+                            class="form-check-label"
+                            for="flexRadioDefault1"
+                          >
+                            Estudio
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="flexRadioDefault"
+                            id="flexRadioDefault2"
+                            checked
+                          />
+                          <label
+                            class="form-check-label"
+                            for="flexRadioDefault2"
+                          >
+                            Trabajo
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="flexRadioDefault"
+                            id="flexRadioDefault2"
+                            checked
+                          />
+                          <label
+                            class="form-check-label"
+                            for="flexRadioDefault2"
+                          >
+                            Distancia / Trafico
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="flexRadioDefault"
+                            id="flexRadioDefault2"
+                            checked
+                          />
+                          <label
+                            class="form-check-label"
+                            for="flexRadioDefault2"
+                          >
+                            Separación familiar
+                          </label>
+                        </div>
+                      </div>
 
-  <div class="form-group">
-      <div class="container py-1">
-          <small>¿Cuál es la principal razón por la que alquila o presta una segunda vivienda?</small>
-          <div class="row">
-          <div class="col">
-              <div class="form-check">
-                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                  <label class="form-check-label" for="flexRadioDefault1">
-                  Estudio
-                  </label>
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          name="additional-income"
+                          id="additional-income"
+                        />
+                        <label class="form-check-label" for="additional-income">
+                          Otros (Especifique)
+                        </label>
+                      </div>
+                      <div class="form-input-text">
+                        <input type="text" id="title" class="form-control-sm" />
+                      </div>
+
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          name="additional-income"
+                          id="additional-income"
+                        />
+                        <label class="form-check-label" for="additional-income">
+                          Otros (Especifique)
+                        </label>
+                      </div>
+                      <div class="form-input-text">
+                        <input type="text" id="title" class="form-control-sm" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="form-check">
-                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                  <label class="form-check-label" for="flexRadioDefault2">
-                    Trabajo
-                  </label>
-              </div>
-              <div class="form-check">
-                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                  <label class="form-check-label" for="flexRadioDefault2">
-                  Distancia / Trafico
-                  </label>
-              </div>
-              <div class="form-check">
-                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                  <label class="form-check-label" for="flexRadioDefault2">
-                  Separación familiar
-                  </label>
-              </div>              
-          </div>          
-            
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
-                <label class="form-check-label" for="additional-income">
-                Otros (Especifique)
-                </label>
-            </div>     
-            <div class="form-input-text">
-                <input type="text" id="title" class="form-control-sm">                            
             </div>
-            
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
-                <label class="form-check-label" for="additional-income">
-                Otros (Especifique)
-                </label>
-            </div>     
-            <div class="form-input-text">
-                <input type="text" id="title" class="form-control-sm">                            
-            </div>
 
-        </div>
-          
-      </div>
-      </div>
-  </div>
-  </div>
-  </div>
-
-    <!--form field-->
-   <!--  SV3 ¿Con quiénes alquila o presta una segunda vivienda?
+            <!--form field-->
+            <!--  SV3 ¿Con quiénes alquila o presta una segunda vivienda?
     Marque con una “X” todas las respuestas que apliquen
     1. Sólo 4. Con compañeros de estudio
     2. Con compañeros de trabajo 5. Otros Especifique:
     3. Con familiares 6. Otros Especifique: -->
 
-    <div class="card card-signin">
-        <div class="card-body">
+            <div class="card card-signin">
+              <div class="card-body">
+                <div class="form-group">
+                  <div class="container py-1">
+                    <small
+                      >¿Con quiénes alquila o presta una segunda vivienda?<br />
+                      Marque con una “X” todas las respuestas que
+                      apliquen</small
+                    >
+                    <div class="row">
+                      <div class="col">
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="flexRadioDefault"
+                            id="flexRadioDefault1"
+                          />
+                          <label
+                            class="form-check-label"
+                            for="flexRadioDefault1"
+                          >
+                            Sólo
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="flexRadioDefault"
+                            id="flexRadioDefault2"
+                            checked
+                          />
+                          <label
+                            class="form-check-label"
+                            for="flexRadioDefault2"
+                          >
+                            Con compañeros de trabajo
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="flexRadioDefault"
+                            id="flexRadioDefault2"
+                            checked
+                          />
+                          <label
+                            class="form-check-label"
+                            for="flexRadioDefault2"
+                          >
+                            Con familiares
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="flexRadioDefault"
+                            id="flexRadioDefault2"
+                            checked
+                          />
+                          <label
+                            class="form-check-label"
+                            for="flexRadioDefault2"
+                          >
+                            Con compañeros de estudio
+                          </label>
+                        </div>
+                      </div>
 
-  <div class="form-group">
-      <div class="container py-1">
-          <small>¿Con quiénes alquila o presta una segunda vivienda?<br>
-            Marque con una “X” todas las respuestas que apliquen</small>
-          <div class="row">
-          <div class="col">
-              <div class="form-check">
-                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                  <label class="form-check-label" for="flexRadioDefault1">
-                  Estudio
-                  </label>
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          name="additional-income"
+                          id="additional-income"
+                        />
+                        <label class="form-check-label" for="additional-income">
+                          Otros (Especifique)
+                        </label>
+                      </div>
+                      <div class="form-input-text">
+                        <input type="text" id="title" class="form-control-sm" />
+                      </div>
+
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          name="additional-income"
+                          id="additional-income"
+                        />
+                        <label class="form-check-label" for="additional-income">
+                          Otros (Especifique)
+                        </label>
+                      </div>
+                      <div class="form-input-text">
+                        <input type="text" id="title" class="form-control-sm" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="form-check">
-                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                  <label class="form-check-label" for="flexRadioDefault2">
-                    Trabajo
-                  </label>
-              </div>
-              <div class="form-check">
-                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                  <label class="form-check-label" for="flexRadioDefault2">
-                  Distancia / Trafico
-                  </label>
-              </div>
-              <div class="form-check">
-                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                  <label class="form-check-label" for="flexRadioDefault2">
-                  Separación familiar
-                  </label>
-              </div>              
-          </div>          
-            
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
-                <label class="form-check-label" for="additional-income">
-                Otros (Especifique)
-                </label>
-            </div>     
-            <div class="form-input-text">
-                <input type="text" id="title" class="form-control-sm">                            
             </div>
-            
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" name="additional-income" id="additional-income">
-                <label class="form-check-label" for="additional-income">
-                Otros (Especifique)
-                </label>
-            </div>     
-            <div class="form-input-text">
-                <input type="text" id="title" class="form-control-sm">                            
+
+            <!--form field-->
+            <!--  SV4 ¿Cuántas personas viven ahí?
+    Ingrese su respuesta utilizando únicamente números -->
+
+            <div class="card card-signin">
+              <div class="card-body">
+                <div class="form-group">
+                  <div class="container py-1">
+                    <small>¿Cuántas personas viven ahí?</small>
+                    <div class="row">
+                      <div class="col">
+                        <div class="form-input-text">
+                          <input
+                            type="number"
+                            id="title"
+                            class="form-control-sm"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
 
-        </div>
-          
+            <!--form field-->
+            <!--   SV5 ¿Qué espacio ocupa en la segunda vivienda?
+    Marque con una “X” la respuesta que aplique
+    1. Una habitación sólo 3. Apartamento / Casa sólo
+    2. Una habitación compartida 4. Apartamento / Casa compartida -->
+
+            <div class="card card-signin">
+              <div class="card-body">
+                <div class="form-group">
+                  <div class="container py-1">
+                    <small
+                      >¿Qué espacio ocupa en la segunda vivienda?<br />
+                      Marque todas las respuestas que apliquen</small
+                    >
+                    <div class="row">
+                      <div class="col">
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            name="flexRadioDefault"
+                            id="flexRadioDefault1"
+                          />
+                          <label
+                            class="form-check-label"
+                            for="flexRadioDefault1"
+                          >
+                            Una habitación solo
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            name="flexRadioDefault"
+                            id="flexRadioDefault2"
+                            checked
+                          />
+                          <label
+                            class="form-check-label"
+                            for="flexRadioDefault2"
+                          >
+                            Una habiación compartida
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            name="flexRadioDefault"
+                            id="flexRadioDefault2"
+                            checked
+                          />
+                          <label
+                            class="form-check-label"
+                            for="flexRadioDefault2"
+                          >
+                            Apartamento / Casa sólo
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            name="flexRadioDefault"
+                            id="flexRadioDefault2"
+                            checked
+                          />
+                          <label
+                            class="form-check-label"
+                            for="flexRadioDefault2"
+                          >
+                            Apartamento / Casa compartida
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--form field-->
+            <!--    SV6 ¿Cuánto aporta en Quetzales para el arrendamiento/alquiler de la vivienda adicional?
+    Ingrese su respuesta utilizando únicamente números -->
+
+            <div class="card card-signin">
+              <div class="card-body">
+                <div class="form-group">
+                  <div class="container py-1">
+                    <small
+                      >¿Cuánto aporta en Quetzales para el
+                      arrendamiento/alquiler de la vivienda adicional?</small
+                    >
+                    <div class="row">
+                      <div class="col">
+                        <div class="form-input-text">
+                          <input
+                            type="number"
+                            id="title"
+                            class="form-control-sm"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!---form field-->
+            <!--     SV7 ¿Cuál es la dirección de la segunda vivienda? Ingrese su respuesta.
+ -->
+            <div class="card card-signin">
+              <div class="card-body">
+                <div class="form-group">
+                  <div class="container py-1">
+                    <small
+                      >¿Cuál es la dirección de la segunda vivienda? Ingrese su
+                      respuesta.</small
+                    >
+                    <div class="row">
+                      <div class="col">
+                        <div class="form-input-text">
+                          <input
+                            type="text"
+                            id="title"
+                            class="form-control-sm"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="my-2 text-center">
+              <button
+                class="btn btn-lg btn-submit text-uppercase align-center"
+                type="submit"
+              >
+                CONTINUAR
+              </button>
+            </div>
+          </form>
+          <div class="my-5 text-center">
+            <br />
+            <br />
+            <br />
+            <br />
+          </div>
+          <!--form field-->
+        </body>
       </div>
-      </div>
-  </div>
-  </div>
-  </div>
+    </div>
+  
+</form>
 
-
-    <!--form field-->
-
-
-
-
-
-SV4 ¿Cuántas personas viven ahí?
-Ingrese su respuesta utilizando únicamente números
-
-SV5 ¿Qué espacio ocupa en la segunda vivienda?
-Marque con una “X” la respuesta que aplique
-1. Una habitación sólo 3. Apartamento / Casa sólo
-2. Una habitación compartida 4. Apartamento / Casa compartida
-
-SV6 ¿Cuánto aporta en Quetzales para el arrendamiento/alquiler de la vivienda adicional?
-Ingrese su respuesta utilizando únicamente números
-
-SV7 ¿Cuál es la dirección de la segunda vivienda? Ingrese su respuesta.
+</body>
