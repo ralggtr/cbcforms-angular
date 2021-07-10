@@ -1,43 +1,714 @@
-SALUD GENERAL DE SU FAMILIA
-SG1 ¿Usted y su familia llevan un control médico anual?
-Marque con una “X” la respuesta que aplique
-1. Sí 2. No
-SG2 ¿Alguien de la familia consume licor frecuentemente?
-Marque con una “X” la respuesta que aplique
-1. Sí 2. No
-SG3 ¿Alguien de la familia fuma cigarrillos frecuentemente?
-Marque con una “X” la respuesta que aplique
-1. Sí CONTINÚE 2. No PASE A SG5
-SG4 ¿Esta persona fuma cigarrillos dentro del hogar en presencia de otros miembros de la familia?
-Marque con una “X” la respuesta que aplique
-1. Sí 2. No
-SG5 ¿A dónde van los adultos cuando se enferman?
-Marque con una “X” la respuesta que aplique
-1. Hospital público 7. IGSS
-2. Hospital privado 8. Comadrona
-3. Clínica médica privada 9. Seguro médico de la empresa
-4. Centro de salud 10. Clínica médica de la empresa
-5. Farmacia 11. Otros Especifique:
-6. Aprofam
-SG6 ¿Con qué frecuencia visitan usted y su familia al dentista?
-Marque con una “X” la respuesta que aplique
-1. Hace menos de 1 mes 4. Hace más de 1 año
-2. Hace más de 1 mes y menos de 6 meses 5. Nunca ha ido
-3. Hace más de 6 meses y menos de 1 año
-SG7 ¿Con qué frecuencia visitan usted y su familia al oculista?
-Marque con una “X” la respuesta que aplique
-1. Hace menos de 1 mes 4. Hace más de 1 año
-2. Hace más de 1 mes y menos de 6 meses 5. Nunca ha ido
-3. Hace más de 6 meses y menos de 1 año
-SG8 ¿Algún miembro de su familia utiliza lentes?
-Marque con una “X” la respuesta que aplique
-1. Sí 2. No
-SG9 ¿Algún miembro del hogar padece de obesidad?
-Marque con una “X” la respuesta que aplique
-1. Sí 2. No
-SG10 ¿Algún miembro del hogar padece de anemia?
-Marque con una “X” la respuesta que aplique
-1. Sí 2. No
-SG11 ¿Algún miembro del hogar padece de desnutrición?
-Marque con una “X” la respuesta que aplique
-1. Sí 2. No
+<header>
+  <div class="container py-1">
+    <div class="col-4 mx-auto text-center">
+      <h5>Salud de los menores en su hogar</h5>
+    </div>
+  </div>
+</header>
+
+<body>
+  <form>
+    <div class="col-12 mx-auto">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-9 col-md-9 col-lg-7 mx-auto">
+            <!--field div-->
+
+            <!-- SALUD GENERAL DE SU FAMILIA 
+              SG1 
+              ¿Usted y las personas de su hogar llevan un control médico anual? 
+              
+              Marque con una “X” la respuesta que aplique 
+              
+              1. Sí               
+              2. No -->
+
+            <div class="card card-signin">
+              <div class="card-body">
+                <div class="form-group">
+                  <div class="container py-1">
+                    <small
+                      >¿Usted y las personas de su hogar llevan un control
+                      médico anual?
+                    </small>
+                    <div class="row">
+                      <div class="col">
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="SG1"
+                            id="SG1"
+                          />
+                          <label class="form-check-label" for="SG1"> Si </label>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="SG1"
+                            id="SG1"
+                          />
+                          <label class="form-check-label" for="SG1"> No </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- field div -->
+
+            <!--  SG2 ¿Alguien en su hogar consume licor frecuentemente?
+Marque con una “X” la respuesta que aplique 1. Sí 2. No  -->
+
+            <div class="card card-signin">
+              <div class="card-body">
+                <div class="form-group">
+                  <div class="container py-1">
+                    <small>
+                      ¿Alguien en su hogar consume licor frecuentemente?
+                    </small>
+                    <div class="row">
+                      <div class="col">
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="SG2"
+                            id="SG2"
+                          />
+                          <label class="form-check-label" for="SG2"> Si </label>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="SG2"
+                            id="SG2"
+                          />
+                          <label class="form-check-label" for="SG2"> No </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- field div -->
+
+            <!--  SG3 ¿Alguien en su hogar fuma cigarrillos frecuentemente? Marque con una “X” la
+respuesta que aplique 1. Sí CONTINÚE 2. No PASE A SG5 -->
+
+            <div class="card card-signin">
+              <div class="card-body">
+                <div class="form-group">
+                  <div class="container py-1">
+                    <small>
+                      ¿Alguien en su hogar consume licor frecuentemente?
+                    </small>
+                    <div class="row">
+                      <div class="col">
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="SG3"
+                            id="SG3"
+                          />
+                          <label class="form-check-label" for="SG3"> Si </label>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="SG3"
+                            id="SG3"
+                          />
+                          <label class="form-check-label" for="SG3"> No </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- field div -->
+            <!-- SG4 ¿Esta persona fuma cigarrillos dentro del hogar en presencia de otros
+            miembros de la familia? Marque con una “X” la respuesta que aplique 1. Sí 2. No -->
+            <div class="card card-signin">
+              <div class="card-body">
+                <div class="form-group">
+                  <div class="container py-1">
+                    <small>
+                      ¿Esta persona fuma cigarrillos dentro del hogar en
+                      presencia de otros miembros de la familia?
+                    </small>
+                    <div class="row">
+                      <div class="col">
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="SG4"
+                            id="SG4"
+                          />
+                          <label class="form-check-label" for="SG4"> Si </label>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="SG4"
+                            id="SG4"
+                          />
+                          <label class="form-check-label" for="SG4"> No </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- field div -->
+            <!-- SG5 ¿A dónde van los adultos cuando se enferman? Marque con una “X” la respuesta
+            que aplique 1. Hospital público 7. IGSS 2. Hospital privado 8. Comadrona 3.
+            Clínica médica privada 9. Seguro médico de la empresa 4. Centro de salud 10.
+            Clínica médica de la empresa 5. Farmacia 11. Otros Especifique: 6. Aprofam  -->
+            <div class="card card-signin">
+              <div class="card-body">
+                <div class="form-group">
+                  <div class="container py-1">
+                    <small
+                      >¿A dónde van los adultos cuando se enferman?<br />
+                      Marque todas las respuestas que apliquen</small
+                    >
+                    <div class="row">
+                      <div class="col">
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            name="SG5"
+                            id="SG5"
+                            value="1"
+                          />
+                          <label class="form-check-label" for="SG5">
+                            Hospital Público
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            name="SG5"
+                            id="SG5"
+                            value="2"
+                          />
+                          <label class="form-check-label" for="SG5">
+                            Hospital Privado
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            name="SG5"
+                            id="SG5"
+                            value="3"
+                          />
+                          <label class="form-check-label" for="SG5">
+                            Clínica Médica Privada
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            name="SG5"
+                            id="SG5"
+                            value="4"
+                          />
+                          <label class="form-check-label" for="SG5">
+                            Centro de Salud
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            name="SG5"
+                            id="SG5"
+                            value="5"
+                          />
+                          <label class="form-check-label" for="SG5">
+                            Farmacia
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            name="SG5"
+                            id="SG5"
+                            value="6"
+                          />
+                          <label class="form-check-label" for="SG5">
+                            APROFAM
+                          </label>
+                        </div>
+                      </div>
+
+                      <div class="col">
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            name="SG5"
+                            id="SG5"
+                            value="7"
+                          />
+                          <label class="form-check-label" for="SG5">
+                            IGSS
+                          </label>
+                        </div>
+
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            name="SG5"
+                            id="SG5"
+                            value="8"
+                          />
+                          <label class="form-check-label" for="SG5">
+                            Comadrona
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            name="SG5"
+                            id="SG5"
+                            value="9"
+                          />
+                          <label class="form-check-label" for="SG5">
+                            Seguro Médico de la empresa
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            name="SG5"
+                            id="SG5"
+                            value="10"
+                          />
+                          <label class="form-check-label" for="SG5">
+                            Clínica Médica de la Empresa
+                          </label>
+                        </div>
+                      </div>
+
+                      <div class="col">
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            name="SG5"
+                            id="SG5"
+                            value="11"
+                          />
+                          <label class="form-check-label" for="SG5">
+                            Otros (Especifique)
+                          </label>
+                        </div>
+                        <div class="form-input-text">
+                          <input
+                            type="text"
+                            id="SG5O"
+                            name="SG50"
+                            class="form-control-sm"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- field div -->
+            <!-- SG6 ¿Con qué frecuencia visitan usted y los miembros de su hogar al dentista?
+            Marque con una “X” la respuesta que aplique 1. Hace menos de 1 mes 4. Hace más
+            de 1 año 2. Hace más de 1 mes y menos de 6 meses 5. Nunca ha ido 3. Hace más de
+            6 meses y menos de 1 año -->
+
+            <div class="card card-signin">
+              <div class="card-body">
+                <div class="form-group">
+                  <div class="container py-1">
+                    <small
+                      >¿Con qué frecuencia visitan usted y los miembros de su
+                      hogar al dentista?<br />
+                      Marque la respuesta que aplique</small
+                    >
+                    <div class="row">
+                      <div class="col">
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="SG6"
+                            id="SG6"
+                            value="1"
+                          />
+                          <label class="form-check-label" for="SG6">
+                            Hace menos de 1 mes
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="SG6"
+                            id="SG6"
+                            value="2"
+                          />
+                          <label class="form-check-label" for="SG6">
+                            Hace más de 1 mes y menos de 6 meses.
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="SG6"
+                            id="SG6"
+                            value="3"
+                          />
+                          <label class="form-check-label" for="SG6">
+                            Hace más de 6 meses y menos de 1 año
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="SG6"
+                            id="SG6"
+                            value="4"
+                          />
+                          <label class="form-check-label" for="SG6">
+                            Hace más de un año
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="SG6"
+                            id="SG6"
+                            value="5"
+                          />
+                          <label class="form-check-label" for="SG6">
+                            Nunca he ido
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- field div -->
+            <!-- SG7 ¿Con qué frecuencia visitan usted y los miembros de su hogar al oculista?
+Marque con una “X” la respuesta que aplique 1. Hace menos de 1 mes 4. Hace más
+de 1 año 2. Hace más de 1 mes y menos de 6 meses 5. Nunca ha ido 3. Hace más de
+6 meses y menos de 1 año  -->
+            <div class="card card-signin">
+              <div class="card-body">
+                <div class="form-group">
+                  <div class="container py-1">
+                    <small
+                      >¿Con qué frecuencia visitan usted y los miembros de su
+                      hogar al oculista?<br />
+                      Marque la respuesta que aplique</small
+                    >
+                    <div class="row">
+                      <div class="col">
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="SG7"
+                            id="SG7"
+                            value="1"
+                          />
+                          <label class="form-check-label" for="SG7">
+                            Hace menos de 1 mes
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="SG7"
+                            id="SG7"
+                            value="2"
+                          />
+                          <label class="form-check-label" for="SG7">
+                            Hace más de 1 mes y menos de 6 meses.
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="SG7"
+                            id="SG7"
+                            value="3"
+                          />
+                          <label class="form-check-label" for="SG7">
+                            Hace más de 6 meses y menos de 1 año
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="SG7"
+                            id="SG7"
+                            value="4"
+                          />
+                          <label class="form-check-label" for="SG7">
+                            Hace más de un año
+                          </label>
+                        </div>
+
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="SG7"
+                            id="SG7"
+                            value="5"
+                          />
+                          <label class="form-check-label" for="SG7">
+                            Nunca he ido
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- field div -->
+            <!-- SG8 ¿Algún miembro de su hogar utiliza lentes? Marque con una “X” la respuesta
+            que aplique 1. Sí 2. No -->
+
+            <div class="card card-signin">
+              <div class="card-body">
+                <div class="form-group">
+                  <div class="container py-1">
+                    <small>¿Algún miembro de su hogar utiliza lentes? </small>
+                    <div class="row">
+                      <div class="col">
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="SG8"
+                            id="SG8"
+                          />
+                          <label class="form-check-label" for="SG8"> Si </label>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="SG8"
+                            id="SG8"
+                          />
+                          <label class="form-check-label" for="SG8"> No </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- field div -->
+            <!-- SG9 ¿Algún miembro del hogar padece de obesidad? Marque
+            con una “X” la respuesta que aplique 1. Sí 2. No -->
+            <div class="card card-signin">
+              <div class="card-body">
+                <div class="form-group">
+                  <div class="container py-1">
+                    <small>¿Algún miembro del hogar padece de obesidad? </small>
+                    <div class="row">
+                      <div class="col">
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="SG9"
+                            id="SG9"
+                          />
+                          <label class="form-check-label" for="SG9"> Si </label>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="SG9"
+                            id="SG9"
+                          />
+                          <label class="form-check-label" for="SG9"> No </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- field div -->
+            <!-- SG10 ¿Algún miembro del hogar padece de anemia? Marque con una “X” la respuesta
+que aplique 1. Sí 2. No -->
+            <div class="card card-signin">
+              <div class="card-body">
+                <div class="form-group">
+                  <div class="container py-1">
+                    <small>¿Algún miembro del hogar padece de anemia? </small>
+                    <div class="row">
+                      <div class="col">
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="SG10"
+                            id="SG10"
+                          />
+                          <label class="form-check-label" for="SG10">
+                            Si
+                          </label>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="SG10"
+                            id="SG10"
+                          />
+                          <label class="form-check-label" for="SG10">
+                            No
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- field div -->
+            <!-- SG11 ¿Algún miembro del hogar padece de desnutrición? Marque con una “X” la
+respuesta que aplique 1. Sí 2. No Nos puede indicar quien? -->
+            <div class="card card-signin">
+              <div class="card-body">
+                <div class="form-group">
+                  <div class="container py-1">
+                    <small
+                      >¿Algún miembro del hogar padece de desnutrición?
+                    </small>
+                    <div class="row">
+                      <div class="col">
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="SG10"
+                            id="SG10"
+                          />
+                          <label class="form-check-label" for="SG10">
+                            Si
+                          </label>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="SG10"
+                            id="SG10"
+                          />
+                          <label class="form-check-label" for="SG10">
+                            No
+                          </label>
+                        </div>
+                      </div>
+
+                      <div class="form-input-text">
+                        <label class="form-check-label" for="SG5">
+                          ¿ Nos puede indicar quién ?
+                        </label>
+
+                        <input
+                          type="text"
+                          id="SG5O"
+                          name="SG50"
+                          class="form-control-sm"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- field div -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="my-2 text-center">
+      <button
+        class="btn btn-lg btn-submit text-uppercase align-center"
+        type="submit"
+      >
+        CONTINUAR
+      </button>
+    </div>
+  </form>
+  <div>
+    <br />
+    <br />
+    <br />
+    <br />
+  </div>
+</body>

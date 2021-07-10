@@ -11,6 +11,7 @@ import { HomeFinancesFormComponent } from './home-finances-form/home-finances-fo
 import { Household1InfoFormComponent } from './household1-info-form/household1-info-form.component';
 import { Household2InfoFormComponent } from './household2-info-form/household2-info-form.component';
 import { MinorsHealthFormComponent } from './minors-health-form/minors-health-form.component';
+import { FamilyHealthFormComponent } from './family-health-form/family-health-form.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'UserLoginFormComponent', pathMatch: 'full' },
@@ -25,8 +26,7 @@ const routes: Routes = [
   { path: 'household1-info', component: Household1InfoFormComponent },
   { path: 'household2-info', component: Household2InfoFormComponent },
   { path: 'minors-health-info', component: MinorsHealthFormComponent },
-
-
+  { path: 'family-health-info', component: FamilyHealthFormComponent },
 ];
 
 
