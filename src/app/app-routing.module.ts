@@ -12,6 +12,9 @@ import { Household1InfoFormComponent } from './household1-info-form/household1-i
 import { Household2InfoFormComponent } from './household2-info-form/household2-info-form.component';
 import { MinorsHealthFormComponent } from './minors-health-form/minors-health-form.component';
 import { FamilyHealthFormComponent } from './family-health-form/family-health-form.component';
+import { EmotionalHealthFormComponent } from './emotional-health-form/emotional-health-form.component';
+import { WomensHealthFormComponent } from './womens-health-form/womens-health-form.component';
+import { NutritionInfoFormComponent } from './nutrition-info-form/nutrition-info-form.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'UserLoginFormComponent', pathMatch: 'full' },
@@ -27,6 +30,11 @@ const routes: Routes = [
   { path: 'household2-info', component: Household2InfoFormComponent },
   { path: 'minors-health-info', component: MinorsHealthFormComponent },
   { path: 'family-health-info', component: FamilyHealthFormComponent },
+  { path: 'emotional-health-info', component: EmotionalHealthFormComponent },
+  { path: 'womens-health-info', component: WomensHealthFormComponent },
+  { path: 'nutrition-info', component: NutritionInfoFormComponent },
+
+
 ];
 
 
