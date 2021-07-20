@@ -15,6 +15,8 @@ import { FamilyHealthFormComponent } from './family-health-form/family-health-fo
 import { EmotionalHealthFormComponent } from './emotional-health-form/emotional-health-form.component';
 import { WomensHealthFormComponent } from './womens-health-form/womens-health-form.component';
 import { NutritionInfoFormComponent } from './nutrition-info-form/nutrition-info-form.component';
+import { ExpectationsInfoFormComponent } from './expectations-info-form/expectations-info-form.component';
+import { FamilyMemberInfoFormComponent } from './family-member-info-form/family-member-info-form.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'UserLoginFormComponent', pathMatch: 'full' },
@@ -33,10 +35,9 @@ const routes: Routes = [
   { path: 'emotional-health-info', component: EmotionalHealthFormComponent },
   { path: 'womens-health-info', component: WomensHealthFormComponent },
   { path: 'nutrition-info', component: NutritionInfoFormComponent },
-
-
+  { path: 'expectations-info', component: ExpectationsInfoFormComponent},
+  { path: 'family-member', component: FamilyMemberInfoFormComponent}
 ];
-
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
